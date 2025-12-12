@@ -10,7 +10,7 @@ Standard C libraries
 
 Quick Start
 1. Clone the repository
-bashgit clone <repo_url> calclib
+bashgit clone <(https://github.com/Rebeka06/CalcLib.git)> calclib
 cd calclib
 2. Build the project
 bash mkdir build
@@ -365,4 +365,5 @@ Check return values from matrix operations for NULL (indicates error)
 Use ctest --verbose to see detailed test output
 When using fractions, denominators should never be zero
 Trigonometric functions expect radians - use conversion functions if working with degrees
+
 For better series approximations, use more terms (but be aware of computational cost)
