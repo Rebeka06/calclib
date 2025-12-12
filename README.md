@@ -87,9 +87,9 @@ mkdir build
 cd build
 cmake ..
 make
-./sample  # Linux/Mac
+./calclib_demo  # Linux/Mac
 # or
-sample.exe  # Windows
+./calclib_demo.exe  # Windows
 ```
 
 # What the sample demonstrates:
@@ -367,3 +367,4 @@ When using fractions, denominators should never be zero
 Trigonometric functions expect radians - use conversion functions if working with degrees
 
 For better series approximations, use more terms (but be aware of computational cost)
+
